@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['navtolist',['$0'],['listid']]]]]}}" class="hottop" bindtap="__e"><view class="hottop-img"><image src="{{src}}"></image><text>{{imgtext}}</text></view><view class="hottop-text"><block wx:for="{{listname}}" wx:for-item="item" wx:for-index="index"><text>{{''+(index+1)+"."+item.first+" - "+item.second+''}}</text></block></view></view>
